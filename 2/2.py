@@ -10,3 +10,4 @@ def get_prods(N):
     return list(accumulate([x for x in range(1, N + 1)], operator.mul))
 
 print(get_prods(N))
+
