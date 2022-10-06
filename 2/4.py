@@ -38,3 +38,4 @@ numbers = get_numbers(n)
 print(numbers)
 print(datalist)
 print(get_mult(numbers, datalist))
+
