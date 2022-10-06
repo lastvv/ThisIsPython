@@ -19,7 +19,7 @@ def get_rational(update, _):
     for i in expr_temp:
         if i.isalpha():
             update.message.replay_text(
-                f'В вашем выражении есть букв, напишите заново без букв')
+                f'В вашем выражении есть буквы,а их быть не должно')
         return want_count
 
 # list_dig = []
